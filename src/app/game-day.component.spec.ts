@@ -15,8 +15,4 @@ describe('App: GameDay', () => {
     expect(app).toBeTruthy();
   }));
 
-  it('should have as title \'game-day works!\'',
-      inject([GameDayAppComponent], (app: GameDayAppComponent) => {
-    expect(app.title).toEqual('game-day works!');
-  }));
 });
